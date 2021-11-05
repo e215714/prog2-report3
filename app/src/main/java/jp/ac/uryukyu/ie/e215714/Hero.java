@@ -52,34 +52,66 @@ public class Hero {
         }
     }
     
+    /**
+     * 自身の名前のgetter．
+     * @return 自身の名前
+     */
     public String getName() {
         return this.name;
     }
 
+    /**
+     * 自身の名前のsetter.
+     * @param n 設定したい名前
+     */
     public void setName(String n) {
         this.name = n;
     }
 
+    /**
+     * 自身のHPのgetter．
+     * @return 自身のHP
+     */
     public int getHitPoint() {
         return this.hitPoint;
     }
 
+    /**
+     * 自身のHPのsetter.
+     * @param h 設定したいHP
+     */
     public void setHitPoint(int h) {
         this.hitPoint = h;
     }
 
+    /**
+     * 自身の攻撃力のgetter．
+     * @return 自身の攻撃力
+     */
     public int getAttack() {
         return this.attack;
     }
 
+    /**
+     * 自身の攻撃力のsetter．
+     * @param a 設定したい攻撃力
+     */
     public void setAttack(int a) {
         this.attack = a;
     }
-    
+
+    /**
+     * 自身が死亡したかどうかのgetter．
+     * @return 自身の生死状態
+     */
     public boolean isDead() {
         return this.dead;
     }
 
+    /**
+     * 自身が死亡したかどうかのsetter．
+     * @param d 設定したい自身の生死状態
+     */
     public void setDead(boolean d) {
         this.dead = d;
     }
